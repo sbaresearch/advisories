@@ -3,9 +3,9 @@
 ## Vulnerability Overview ##
 
 Smarty 3.1.32 or below is prone to a path traversal vulnerability due
-to insufficient template code sanitization. This allows attackers
-controlling the executed template code to bypass the trusted directory
-security restriction and read arbitrary files.
+to insufficient sanitization of code in Smarty templates. This allows
+attackers controlling the Smarty template to bypass the trusted
+directory security restriction and read arbitrary files.
 
 * **Identifier**            : SBA-ADV-20180420-01
 * **Type of Vulnerability** : Path Traversal
@@ -121,7 +121,7 @@ $smarty->display('eval:{fetch file="'.addslashes(getcwd()).'/templates/../../../
 * `2018-07-10`: request CVE from MITRE
 * `2018-07-11`: MITRE assigned CVE-2018-13982
 * `2018-09-12`: vendor released fix in version 3.1.33
-* `2018-09-17`: public release
+* `2018-09-17`: public disclosure
 
 ## References ##
 
