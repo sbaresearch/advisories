@@ -2,7 +2,7 @@
 
 ## Vulnerability Overview ##
 
-MOKOSmart MKGW1 Gateway devices with firmware version 1.1.1 or below do
+MOKOSmart MKGW1 Gateway devices with firmware version 1.1.1 do
 not provide an adequate session management for the administrative web
 interface. This allows adjacent attackers with access to the management
 network to read and modify the configuration of the device.
@@ -11,9 +11,9 @@ network to read and modify the configuration of the device.
 * **Type of Vulnerability** : Improper Authentication
 * **Software/Product Name** : [MOKOSmart MKGW1 BLE Gateway](https://www.mokosmart.com/mokosmart-mkgw1-gateway-iot-cloud-platform/)
 * **Vendor**                : [MOKO TECHNOLOGY LTD](https://www.mokosmart.com/)
-* **Affected Versions**     : <= 1.1.1
+* **Affected Versions**     : 1.1.1
 * **Fixed in Version**      : Not yet
-* **CVE ID**                : Pending
+* **CVE ID**                : CVE-2023-51059
 * **CVSS Vector**           : CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
 * **CVSS Base Score**       : 8.0 (High)
 
@@ -120,6 +120,7 @@ administrative web interface of the device.
 * `2022-03-02`: disclosed vulnerability to vendor contact but received no reply
 * `2023-12-11`: request CVE from MITRE
 * `2023-12-12`: public disclosure
+* `2024-01-09`: MITRE assigned CVE-2023-51059
 
 ## References ##
 
