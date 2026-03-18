@@ -12,7 +12,7 @@ the RAG API.
 * **Vendor**                : [LibreChat](https://www.librechat.ai/)
 * **Affected Versions**     : 0.8.1-rc2
 * **Fixed in Version**      : Not yet
-* **CVE ID**                : Not yet
+* **CVE ID**                : CVE-2025-41258
 * **CVSSv3 Vector**         : CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
 * **CVSSv3 Base Score**     : 8.0 (High)
 
@@ -159,6 +159,7 @@ have access to the secrets they really need.
                exploitable anymore in default deployment due to SSRF fixes
 * `2026-03-03` maintainer closed GitHub advisory
 * `2026-03-18` public disclosure
+* `2026-03-18` SBA Research assigned CVE-2025-41258
 
 ## References ##
 
