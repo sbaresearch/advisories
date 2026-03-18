@@ -188,7 +188,7 @@ against the *allowlist* as well.
 
 1. SBA Research Security Advisory. SBA-ADV-20251205-01 LibreChat RAG API
    Authentication Bypass:
-   <TODO>
+   <https://github.com/sbaresearch/advisories/tree/public/2025/SBA-ADV-20251205-01_LibreChat_RAG_API_Authentication_Bypass>
 2. LibreChat Docs. Actions Object Structure. allowedDomains:
    <https://www.librechat.ai/docs/configuration/librechat_yaml/object_structure/actions#alloweddomains>
 3. OAWSP Top 10. A10:2021 Server-Side Request Forgery (SSRF):
